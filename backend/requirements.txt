@@ -1,0 +1,17 @@
+# --- Core API (required) ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# --- AI/ML stack (optional but recommended) ---
+# Install for the full ML engine. Without them the service uses a pure-Python
+# fallback so the demo still runs.
+pandas>=2.2.0
+numpy>=2.0.0
+scikit-learn>=1.5.0
+# xgboost>=2.0.0   # uncomment for XGBoost mode
+
+# --- PostgreSQL production (optional) ---
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0
+# asyncpg>=0.29.0

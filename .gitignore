@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Vite / editor
+.vite/
+.DS_Store
+.idea/
+.vscode/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+uvicorn.log
+
+# Tests / coverage
+.coverage
+coverage/
+
+# OS
+Thumbs.db
+
+# Data dumps
+*.sqlite3
+*.db
